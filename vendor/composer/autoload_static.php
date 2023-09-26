@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9fe5ae199d8d095737aed0b377962649
+class ComposerStaticInit1dfca2ded502356784cdab8f9dcb50b1
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -533,6 +533,10 @@ class ComposerStaticInit9fe5ae199d8d095737aed0b377962649
         'App\\Factories\\ConfigurationResolverFactory' => __DIR__ . '/..' . '/laravel/pint/app/Factories/ConfigurationResolverFactory.php',
         'App\\Fixers\\LaravelPhpdocAlignmentFixer' => __DIR__ . '/..' . '/laravel/pint/app/Fixers/LaravelPhpdocAlignmentFixer.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginController.php',
+        'App\\Http\\Controllers\\LogoutController' => __DIR__ . '/../..' . '/app/Http/Controllers/LogoutController.php',
+        'App\\Http\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegisterController.php',
+        'App\\Http\\Controllers\\postcontroller' => __DIR__ . '/../..' . '/app/Http/Controllers/postcontroller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -6582,9 +6586,9 @@ class ComposerStaticInit9fe5ae199d8d095737aed0b377962649
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9fe5ae199d8d095737aed0b377962649::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9fe5ae199d8d095737aed0b377962649::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9fe5ae199d8d095737aed0b377962649::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1dfca2ded502356784cdab8f9dcb50b1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1dfca2ded502356784cdab8f9dcb50b1::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit1dfca2ded502356784cdab8f9dcb50b1::$classMap;
 
         }, null, ClassLoader::class);
     }
